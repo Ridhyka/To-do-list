@@ -11,17 +11,22 @@ st.markdown(
     """
     <style>
     body {
-        background-color: rgb(158, 236, 223);
+      background-color: rgb(237, 188, 128);
+        # background-color: rgb(158, 236, 223);
     }
     .stApp {
-        background-color: rgb(159, 243, 218);
+        # background-color: rgb(159, 243, 218);
+         background-color: rgb(237, 188, 128);
     }
     .stTitle, .stSubheader {
-        color: rgb(86, 128, 245);
+        # color: rgb(86, 128, 245);
+         color: rgb(196, 120, 27);
+        
         font-weight: bold;
     }
     .stButton>button {
-        background-color: rgb(86, 128, 245);
+        # background-color: rgb(86, 128, 245);
+         background-color: rgb(196, 120, 27);
         color: white;
         border-radius: 12px !important;
         padding: 10px;
@@ -29,17 +34,22 @@ st.markdown(
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: rgb(86, 128, 245);
-        color: rgb(158, 236, 223);
-        border-color: rgba(158, 236, 223);
+        # background-color: rgb(86, 128, 245);
+         background-color: rgb(196, 120, 27);
+        # color: rgb(158, 236, 223);
+        # border-color: rgba(158, 236, 223);
+        color: rgb(237, 188, 128);
+        border-color: rgba(237, 188, 128);
     }
     .stTextInput>div>div>input {
         border-radius: 12px;
-        border: 2px solid rgb(86, 128, 245);
+        # border: 2px solid rgb(86, 128, 245);
+           border: 2px solid rgb(196, 120, 27);
         padding: 8px;
     }
     .stCheckbox>div>label {
-        color: rgb(86, 128, 245);
+        # color: rgb(86, 128, 245);
+          # color: rgb(196, 120, 27);
         font-size: 16px;
     }
     .stColumns div {
@@ -131,3 +141,4 @@ with col2:
 
 # Properly close the database connection before the app exits
 conn.close()
+
