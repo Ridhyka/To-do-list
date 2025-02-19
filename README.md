@@ -11,7 +11,7 @@ This is a **Streamlit-based To-Do List App** that allows users to add, view, and
 - 📆 **Date Selection Buttons** – Quick navigation for adding tasks for the upcoming week.
 
 ## 🖼️ Screenshot
-![App Screenshot](images/Screenshot (23).png)
+![App Screenshot](images/Screenshot%20(23).png)
 
 ## 🌐 Live Demo
 
